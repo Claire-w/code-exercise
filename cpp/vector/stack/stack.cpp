@@ -2,7 +2,7 @@
  * @Author: Claire-w 2280299167@qq.com
  * @Date: 2024-07-10 03:22:11
  * @LastEditors: Claire-w 2280299167@qq.com
- * @LastEditTime: 2024-07-10 03:42:10
+ * @LastEditTime: 2024-07-10 03:47:51
  * @FilePath: /Code/Job/code-exercise/cpp/vector/stack/stack.cpp
  * @Description: 
  * 
@@ -23,7 +23,7 @@ public:
     Stack() {}
     ~Stack() {}
 
-    void push(T element) {
+    void push(const T& element) {
         stk.push_back(element);
     }
 
